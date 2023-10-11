@@ -1,0 +1,6 @@
+area['name'='Fortaleza'];
+node
+  
+  [amenity=bar]
+  (area);
+out;

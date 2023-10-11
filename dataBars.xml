@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-10-11T19:21:56Z" areas="2023-10-11T16:50:15Z"/>
+
+  <node id="1798892017" lat="-3.7429916" lon="-38.5390333">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Sax Bar"/>
+    <tag k="wifi" v="no"/>
+  </node>
+  <node id="1942211027" lat="-3.7423063" lon="-38.5350851">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="2750"/>
+    <tag k="addr:postcode" v="60025-205"/>
+    <tag k="addr:street" v="Rua Padre Miguelino"/>
+    <tag k="addr:suburb" v="Benfica"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Pitombeira Bar"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="1942211028" lat="-3.7421989" lon="-38.5374025">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cantinho Acadêmico Bar"/>
+  </node>
+  <node id="1947424236" lat="-3.7439780" lon="-38.5378433">
+    <tag k="amenity" v="bar"/>
+    <tag k="internet_access" v="no"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="name" v="Chopana"/>
+    <tag k="opening_hours" v="Mo-Fr 08:30-22:00"/>
+    <tag k="smoking" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="3612641050" lat="-3.7424818" lon="-38.5375983">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="42"/>
+    <tag k="addr:postcode" v="60020-110"/>
+    <tag k="addr:street" v="Rua Waldery Uchôa"/>
+    <tag k="addr:suburb" v="Benfica"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="yes"/>
+    <tag k="name" v="Barbarians Pub"/>
+    <tag k="outdoor_seating" v="no"/>
+  </node>
+  <node id="4373727690" lat="-3.6994824" lon="-38.5881513">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Beira do Rio"/>
+  </node>
+  <node id="4465141235" lat="-3.8220421" lon="-38.5658205">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="315"/>
+    <tag k="addr:street" v="Rua 07"/>
+    <tag k="addr:suburb" v="Mondubim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Lis Buffet"/>
+  </node>
+  <node id="4465156885" lat="-3.8190410" lon="-38.5668402">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="211"/>
+    <tag k="addr:street" v="Rua 03"/>
+    <tag k="addr:suburb" v="Mondubim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="MeiryCake"/>
+  </node>
+  <node id="4468608161" lat="-3.8022166" lon="-38.5714771">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="3033"/>
+    <tag k="addr:street" v="Avenida Godofredo Maciel"/>
+    <tag k="addr:suburb" v="Maraponga"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Baião de 10"/>
+  </node>
+  <node id="4468693563" lat="-3.8082535" lon="-38.5738838">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="3820"/>
+    <tag k="addr:street" v="Avenida Godofredo Maciel"/>
+    <tag k="addr:suburb" v="Mondubim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Mega Hits"/>
+  </node>
+  <node id="4469011072" lat="-3.8047500" lon="-38.5682532">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="570"/>
+    <tag k="addr:street" v="Avenida Benjamin Brasil"/>
+    <tag k="addr:suburb" v="Mondubim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Garden Buffet"/>
+  </node>
+  <node id="4469011074" lat="-3.8051273" lon="-38.5683305">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="621"/>
+    <tag k="addr:street" v="Rua Clemente Silva"/>
+    <tag k="addr:suburb" v="Mondubim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Spazio Buffet"/>
+  </node>
+  <node id="4469521119" lat="-3.7958270" lon="-38.5705227">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="911"/>
+    <tag k="addr:street" v="Rua Francisco Glicério"/>
+    <tag k="addr:suburb" v="Maraponga"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Spazio Buffet Expansão"/>
+  </node>
+  <node id="4469548752" lat="-3.7976985" lon="-38.5644499">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="315"/>
+    <tag k="addr:street" v="Rua Francisco Glicério"/>
+    <tag k="addr:suburb" v="Maraponga"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Martan Buffet"/>
+  </node>
+  <node id="4469976492" lat="-3.7941619" lon="-38.5684461">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="320"/>
+    <tag k="addr:street" v="Rua Carlos Studart"/>
+    <tag k="addr:suburb" v="Maraponga"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Espaço Comemore"/>
+  </node>
+  <node id="4469976507" lat="-3.8075428" lon="-38.5586314">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="550"/>
+    <tag k="addr:street" v="Rua S"/>
+    <tag k="addr:suburb" v="Itaperi"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Garden Buffet Conceito"/>
+  </node>
+  <node id="4470649437" lat="-3.7864716" lon="-38.5665771">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="1179"/>
+    <tag k="addr:street" v="Avenida Godofredo Maciel"/>
+    <tag k="addr:suburb" v="Parangaba"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Casa De Show Taipa"/>
+  </node>
+  <node id="4470676509" lat="-3.7677491" lon="-38.6085619">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="283"/>
+    <tag k="addr:street" v="Avenida Ministro Albuquerque Lima"/>
+    <tag k="addr:suburb" v="Conjunto Ceará"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Marta´s Buffet"/>
+  </node>
+  <node id="4470864234" lat="-3.7705986" lon="-38.6054348">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="848"/>
+    <tag k="addr:street" v="Avenida Ministro Albuquerque Lima"/>
+    <tag k="addr:suburb" v="Conjunto Ceará"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Tô em Casa"/>
+  </node>
+  <node id="4474425536" lat="-3.7709732" lon="-38.5504658">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="1668"/>
+    <tag k="addr:street" v="Rua 15 de Novembro"/>
+    <tag k="addr:suburb" v="Itaóca"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Gem Buffet"/>
+  </node>
+  <node id="4475772437" lat="-3.7851329" lon="-38.5521066">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="2257"/>
+    <tag k="addr:street" v="Avenida Doutor Silas Munguba"/>
+    <tag k="addr:suburb" v="Serrinha"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Espaço Caras"/>
+  </node>
+  <node id="4476050636" lat="-3.7963066" lon="-38.5497623">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="967"/>
+    <tag k="addr:street" v="Rua José Pedra"/>
+    <tag k="addr:suburb" v="Parque Dois Irmãos"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Espaço para Eventos Tdb Buffet"/>
+  </node>
+  <node id="4477665581" lat="-3.7662958" lon="-38.6116347">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="s/n"/>
+    <tag k="addr:street" v="Avenida C"/>
+    <tag k="addr:suburb" v="Conjunto Ceará"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Espaço Verde (Conjunto Ceará)"/>
+  </node>
+  <node id="4482894133" lat="-3.7678159" lon="-38.5334359">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="s/n;360"/>
+    <tag k="addr:postcode" v="60420-075"/>
+    <tag k="addr:street" v="Rua Almirante Rufino"/>
+    <tag k="addr:suburb" v="Vila União"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Vila União Clube"/>
+  </node>
+  <node id="4483201299" lat="-3.7683335" lon="-38.5423676">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="5538"/>
+    <tag k="addr:street" v="Avenida dos Expedicionários"/>
+    <tag k="addr:suburb" v="Montese"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Arcus Buffet"/>
+  </node>
+  <node id="4888705597" lat="-3.7439600" lon="-38.5339451">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bolacha Mágica Music Bar"/>
+  </node>
+  <node id="4944327321" lat="-3.7948146" lon="-38.4980436">
+    <tag k="addr:housenumber" v="771"/>
+    <tag k="addr:street" v="Rua Julio Lima"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="cuisine" v="burger;sandwich;brazilian;sausage;friture;coffee_shop"/>
+    <tag k="name" v="Quiosque Bar do Machadinho"/>
+    <tag k="name:pt" v="Quiosque Bar do Machadinho"/>
+  </node>
+  <node id="4944350321" lat="-3.7950542" lon="-38.4847115">
+    <tag k="addr:street" v="Rua Professor Carlos Lobo"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="cuisine" v="burger;sandwich;hotdog;breakfast;coffee_shop;steak_house;pancake;diner;brazilian;kebab"/>
+    <tag k="name" v="Hiper Lanches"/>
+    <tag k="name:pt" v="Hiper Lanches"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-22:00"/>
+  </node>
+  <node id="4970132322" lat="-3.7607842" lon="-38.5671894">
+    <tag k="addr:street" v="Rua Goiás"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="internet_access" v="wlan"/>
+    <tag k="name" v="Carecas Bar"/>
+    <tag k="opening_hours" v="Tu-Su 17:00-24:00"/>
+  </node>
+  <node id="5132024029" lat="-3.7792134" lon="-38.5598323">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="643"/>
+    <tag k="addr:postcode" v="60740005"/>
+    <tag k="addr:street" v="Avenida Doutor Silas Munguba"/>
+    <tag k="addr:suburb" v="Parangaba"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="ToroLocco Bar"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="5149913991" lat="-3.7358029" lon="-38.5582379">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Raul Carnes e Bebidas"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="5149938221" lat="-3.7357621" lon="-38.5674463">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Cearoca Bar"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="5149965291" lat="-3.7414853" lon="-38.4944073">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Austin Pub"/>
+  </node>
+  <node id="5283023067" lat="-3.7973087" lon="-38.6065238">
+    <tag k="addr:housename" v="Grosso Bar"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Grosso Bar"/>
+  </node>
+  <node id="5283023070" lat="-3.7974586" lon="-38.6075565">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="5283035245" lat="-3.7971026" lon="-38.6050111">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="5283040696" lat="-3.7974399" lon="-38.6044451">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Mercadinho Popular"/>
+  </node>
+  <node id="5283101677" lat="-3.8003678" lon="-38.6039274">
+    <tag k="addr:housename" v="Boutique do Artesanato"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Boutique do Artesanato"/>
+  </node>
+  <node id="5283101679" lat="-3.7976192" lon="-38.6088332">
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="5705810624" lat="-3.7497434" lon="-38.4718177">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="333"/>
+    <tag k="addr:postcode" v="60190-200"/>
+    <tag k="addr:street" v="Alameda das Boninas"/>
+    <tag k="addr:suburb" v="Cidade 2000"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="La Ticiane"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="smoking" v="outside"/>
+  </node>
+  <node id="5705810625" lat="-3.7316593" lon="-38.4865537">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="1460"/>
+    <tag k="addr:postcode" v="60160-110"/>
+    <tag k="addr:street" v="Rua Ana Bilhar"/>
+    <tag k="addr:suburb" v="Varjota"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Dom Lee Bar &amp; Bistrô"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="smoking" v="outside"/>
+  </node>
+  <node id="6186406679" lat="18.5449940" lon="73.9057682">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Lord of the Drinks"/>
+    <tag k="name:mr" v="लॉर्ड ऑफ द ड्रिंक्स"/>
+  </node>
+  <node id="6386706660" lat="-3.7080012" lon="-38.5902245">
+    <tag k="addr:city" v="fortaleza"/>
+    <tag k="addr:housenumber" v="260"/>
+    <tag k="addr:postcode" v="60346-196"/>
+    <tag k="addr:street" v="Rua 02"/>
+    <tag k="addr:suburb" v="barra do ceara"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Trupe Pizzaria"/>
+    <tag k="outdoor_seating" v="pedestrian_zone"/>
+  </node>
+  <node id="6508869634" lat="-3.7607404" lon="-38.5879869">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:street" v="Rua Aracaju"/>
+    <tag k="addr:suburb" v="Henrique Jorego"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="highway" v="services"/>
+    <tag k="name" v="Espetinho da Diretoria"/>
+    <tag k="outdoor_seating" v="yes"/>
+  </node>
+  <node id="6621427555" lat="-3.7926776" lon="-38.5945282">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:street" v="Rua Vicente Pinheiro"/>
+    <tag k="addr:suburb" v="Bom Jardim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Barzinho"/>
+  </node>
+  <node id="6621439706" lat="-3.7924261" lon="-38.5979075">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:street" v="Rua Oscar França"/>
+    <tag k="addr:suburb" v="Bom Jardim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Barzinho"/>
+  </node>
+  <node id="6621455536" lat="-3.7894910" lon="-38.5989113">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:street" v="Rua Maria Júlia Rocha"/>
+    <tag k="addr:suburb" v="Bom Jardim"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Barzinho do Marcelo"/>
+  </node>
+  <node id="6621471068" lat="-3.7902096" lon="-38.5974240">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:street" v="Rua José Martins"/>
+    <tag k="addr:suburb" v="Bom Jardim"/>
+    <tag k="amenity" v="bar"/>
+  </node>
+  <node id="6654136652" lat="-3.7377656" lon="-38.5633783">
+    <tag k="addr:housenumber" v="2102"/>
+    <tag k="addr:street" v="Rua Azevedo Bolão"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Buteco do Raul"/>
+  </node>
+  <node id="6777943033" lat="-3.7429017" lon="-38.5366108">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="858"/>
+    <tag k="addr:street" v="Rua Marechal Deodoro"/>
+    <tag k="addr:suburb" v="Benfica"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="brewery" v="no"/>
+    <tag k="name" v="Na Toca do Coelho"/>
+    <tag k="outdoor_seating" v="yes"/>
+    <tag k="phone" v="+55 85 9 8422 5232"/>
+  </node>
+  <node id="6783738692" lat="-3.7255516" lon="-38.5376141">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="1012"/>
+    <tag k="addr:postcode" v="60010-100"/>
+    <tag k="addr:street" v="Rua Padre Mororó"/>
+    <tag k="addr:suburb" v="Centro"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Bar o Camocim"/>
+  </node>
+  <node id="8907417995" lat="-3.7727036" lon="-38.6113112">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="461"/>
+    <tag k="addr:postcode" v="60533-655"/>
+    <tag k="addr:street" v="Avenida G"/>
+    <tag k="addr:suburb" v="Conjunto Ceará"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Chill Out Bar"/>
+  </node>
+  <node id="9075113606" lat="-3.7440737" lon="-38.5377639">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="69"/>
+    <tag k="addr:postcode" v="60020-270"/>
+    <tag k="addr:street" v="Rua Paulino Nogueira"/>
+    <tag k="addr:suburb" v="Benfica"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="internet_access" v="no"/>
+    <tag k="internet_access:fee" v="no"/>
+    <tag k="name" v="Bar do Paraíba"/>
+    <tag k="smoking" v="no"/>
+    <tag k="wheelchair" v="yes"/>
+  </node>
+  <node id="10178565208" lat="-3.7390916" lon="-38.4966239">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="282"/>
+    <tag k="addr:postcode" v="60150-100"/>
+    <tag k="addr:street" v="Rua Eduardo Garcia"/>
+    <tag k="addr:suburb" v="Aldeota"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Santa Gela"/>
+  </node>
+  <node id="10723431991" lat="-3.7792589" lon="-38.5598408">
+    <tag k="addr:city" v="Fortaleza"/>
+    <tag k="addr:housenumber" v="643"/>
+    <tag k="addr:postcode" v="60740-005"/>
+    <tag k="addr:street" v="Avenida Doutor Silas Munguba"/>
+    <tag k="addr:suburb" v="Parangaba"/>
+    <tag k="amenity" v="bar"/>
+    <tag k="contact:instagram" v="stopbeer_boteco"/>
+    <tag k="internet_access" v="yes"/>
+    <tag k="name" v="Boteco Stop Beer"/>
+    <tag k="opening_hours" v="Mo-Sa 11:00-00:00; Su 17:00-00:00"/>
+    <tag k="phone" v="+55 85 99994 8330"/>
+  </node>
+  <node id="11165595582" lat="-3.7956212" lon="-38.5971699">
+    <tag k="amenity" v="bar"/>
+    <tag k="name" v="Barzinho"/>
+    <tag k="pmfsefin:idedif" v="791813"/>
+  </node>
+
+</osm>
