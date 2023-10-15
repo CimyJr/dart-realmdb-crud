@@ -8,6 +8,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  realm_dart: ^1.5.0
   xml: ^6.4.2
   # path: ^1.8.0
 
