@@ -5,9 +5,9 @@ import 'package:realm_dart/realm.dart';
 
 import 'model/bar.dart';
 
-String barname = '';
-String street = '';
-String housenumber = '';
+String? barname;
+String? street;
+String? housenumber;
 void main(List<String> arguments) {
   final config = Configuration.local([Bar.schema]); //path do banco
   final realm = Realm(config);
@@ -18,43 +18,65 @@ void main(List<String> arguments) {
   Iterable<XmlElement> data =
       document.findAllElements('tag'); //query do elemento tag
 
-  for (int index = 0; index < data.length; index++) {
-    //foor para pega os atributos dento da query
-    String type = data.elementAt(index).attributes[0].toString();
-    String name = data.elementAt(index).attributes[1].toString();
-    String name2 = name.substring(3, name.length - 1); //manipulação da string
-
-    if (type == 'k="name"') {
-      barname = name2;
-      log('name: $barname \n');
+  var type = document.findAllElements('tag').map((each) => each.getAttribute('type'));
+  var name = document.findAllElements('node').map((each) => each.getAttribute('name'));
+  
+  int i = 0;
+  
+  document.findAllElements('tag').forEach((tag) { 
+    if(type.elementAt(i)=='k=name'){
+      barname = name.elementAt(i);
+      log('name: $barname ');
+      log('\n');
     }
-    if (type == 'k="addr:street"') {
-      street = name2;
+    if (type.elementAt(i) == 'k="addr:street"') {
+      street = name.elementAt(i);
       log('Street: $street');
     }
-    if (type == 'k="addr:housenumber"') {
-      housenumber = name2;
+    if (type.elementAt(i) == 'k="addr:housenumber"') {
+      housenumber = name.elementAt(i);
 
       log('house number: $housenumber');
     }
+  i++;
+  });
+//   for (int index = 0; index < data.length; index++) {
+//     //foor para pega os atributos dento da query
+//     String type = data.elementAt(index).attributes[0].toString();
+//     String name = data.elementAt(index).attributes[1].toString();
+//     String name2 = name.substring(3, name.length - 1); //manipulação da string
 
-    ///Adicionar no banco de dados
+//     if (type == 'k="name"') {
+//       barname = name2;
+//       log('name: $barname ');
+//       log('\n');
+//     }
+//     if (type == 'k="addr:street"') {
+//       street = name2;
+//       log('Street: $street');
+//     }
+//     if (type == 'k="addr:housenumber"') {
+//       housenumber = name2;
 
-    final allbar = realm.all<Bar>();
+//       log('house number: $housenumber');
+//     }
 
-    if (index==0) {
-      final bar = Bar(ObjectId(), barname, street, housenumber);
-      realm.write(() {
-        realm.add(bar);
-      });
-    } else if(index > 0 && index <= allbar.length) {
-      if (allbar[index-1].name == barname) {
-    } else {
-      final bar = Bar(ObjectId(), barname, street, housenumber);
-      realm.write(() {
-        realm.add(bar);
-      });
-    }
+//     ///Adicionar no banco de dados
+
+//  final allbar = realm.all<Bar>();
+//     if (index==0) {
+//       final bar = Bar(ObjectId(), barname, street, housenumber);
+//       realm.write(() {
+//         realm.add(bar);
+//       });
+//     } else if (allbar[index-1].name == barname ) {
+//   }  
+//       else {
+//         final bar = Bar(ObjectId(), barname, street, housenumber);
+//         realm.write(() {
+//         realm.add(bar);
+//       });
+//     }
 
     ///Deletar todos os bares
 
@@ -62,9 +84,8 @@ void main(List<String> arguments) {
     // for (int index = 0; index < bar.length; index++) {
     //   final mybar = bar[index];
     //   realm.write(() => realm.delete(mybar));
-    // }
+    // }}
   
-  }
+  // }
   // realm.close();
-}
 }
