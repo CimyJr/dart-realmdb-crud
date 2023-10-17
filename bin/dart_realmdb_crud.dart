@@ -8,26 +8,35 @@ import 'model/bar.dart';
 final config = Configuration.local([Bar.schema]); //path do banco
 final realm = Realm(config);
 
-String barname='';
-String street='';
-String housenumber='';
-String type='';
-String name='';
+String barname = '';
+String street = '';
+String housenumber = '';
+String type = '';
+String name = '';
 bool hasBarName = false;
 bool hasStreet = false;
 bool hasHouseNumber = false;
 
-  void deleteData(){
-   ///Deletar todos os bares
+void deleteData() {
+  ///Deletar todos os bares
 
-    final bar = realm.all<Bar>();
-    for (int index = 0; index < bar.length; index++) {
-      final mybar = bar[index];
-      realm.write(() => realm.delete(mybar));
-    }}
+  final bar = realm.all<Bar>();
+  for (int index = 0; index < bar.length; index++) {
+    final mybar = bar[index];
+    realm.write(() => realm.delete(mybar));
+  }
+}
+
+void writeData({required String barName, String? street, String? houseNumber}) {
+  ///Adicionar no banco de dados
+
+  final bar = Bar(ObjectId(), barName, street ?? ' ', houseNumber ?? ' ');
+  realm.write(() {
+    realm.add(bar);
+  });
+}
+
 void main(List<String> arguments) {
- 
-
   final file = File('dataBars.xml'); //definindo o documento
   final document = XmlDocument.parse(
       file.readAsStringSync()); //passando o conteúdo dele para string
@@ -37,10 +46,10 @@ void main(List<String> arguments) {
   // var type = document.findAllElements('node').map((each) => each.getAttributeNode('tag'));
   // log('$typelist');
   // var name = document.findAllElements('tag').map((each) => each.getAttribute('name'));
-  
+
   // int i = 0;
-  
-  // document.findAllElements('tag').forEach((tag) { 
+
+  // document.findAllElements('tag').forEach((tag) {
   //   if(type.elementAt(i)=='k=name'){
   //     barname = name.elementAt(i);
   //     log('name: $barname ');
@@ -57,7 +66,7 @@ void main(List<String> arguments) {
   //   }
   // i++;
   // });
-  
+
   for (int index = 0; index < data.length; index++) {
     //foor para pega os atributos dento da query
     // hasBarName = false;
@@ -66,7 +75,7 @@ void main(List<String> arguments) {
     type = data.elementAt(index).attributes[0].toString();
     name = data.elementAt(index).attributes[1].toString();
     String name2 = name.substring(3, name.length - 1); //manipulação da string
-    
+
     if (type == 'k="name"') {
       hasBarName = true;
       barname = name2;
@@ -85,26 +94,21 @@ void main(List<String> arguments) {
       log('house number: $housenumber');
     }
 
+    // deleteData();
+    if(type == 'k="name"'){
+    writeData(barName: barname, street: street, houseNumber: housenumber);
 
+    }
+    street = ' ';
+    housenumber= ' ';
 
-//  deleteData();
-//     ///Adicionar no banco de dados
-
-     final allbar = realm.all<Bar>();
-      if(type == 'k="name"'){
-       final bar = Bar(ObjectId(),hasBarName==false ? ' ' : barname, hasStreet==false ? ' ' : street, hasHouseNumber==false ? ' ' : housenumber);
-      realm.write(() {
-        realm.add(bar);
-      });}
-    
-    
 //     if (index==0) {
 //       final bar = Bar(ObjectId(), barname, street, housenumber);
 //       realm.write(() {
 //         realm.add(bar);
 //       });
 //     } else if (allbar[index-1].name == barname ) {
-//   }  
+//   }
 //       else {
 //         final bar = Bar(ObjectId(), barname, street, housenumber);
 //         realm.write(() {
@@ -112,9 +116,7 @@ void main(List<String> arguments) {
 //       });
 //     }
 
- 
-  
-  // }
-  // realm.close();
-}
+    // }
+    // realm.close();
+  }
 }
