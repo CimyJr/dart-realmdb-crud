@@ -5,7 +5,7 @@ import 'package:realm_dart/realm.dart';
 
 import 'model/bar.dart';
 
- final config = Configuration.local([Bar.schema]); //path do banco
+final config = Configuration.local([Bar.schema]); //path do banco
 final realm = Realm(config);
 
 String barname='';
@@ -32,13 +32,13 @@ void main(List<String> arguments) {
   final document = XmlDocument.parse(
       file.readAsStringSync()); //passando o conteúdo dele para string
   Iterable<XmlElement> data =
-      document.findAllElements('node'); //query do elemento tag
+      document.findAllElements('tag'); //query do elemento tag
 
-  var typelist = document.findAllElements('tag').map((each) => each.getAttributeNode('tag'));
-  log('$typelist');
+  // var type = document.findAllElements('node').map((each) => each.getAttributeNode('tag'));
+  // log('$typelist');
   // var name = document.findAllElements('tag').map((each) => each.getAttribute('name'));
   
-  int i = 0;
+  // int i = 0;
   
   // document.findAllElements('tag').forEach((tag) { 
   //   if(type.elementAt(i)=='k=name'){
@@ -57,15 +57,16 @@ void main(List<String> arguments) {
   //   }
   // i++;
   // });
+  
   for (int index = 0; index < data.length; index++) {
     //foor para pega os atributos dento da query
-    hasBarName = false;
-    hasStreet = false;
-    hasHouseNumber = false;
+    // hasBarName = false;
+    // hasStreet = false;
+    // hasHouseNumber = false;
     type = data.elementAt(index).attributes[0].toString();
     name = data.elementAt(index).attributes[1].toString();
     String name2 = name.substring(3, name.length - 1); //manipulação da string
-    log('$type');
+    
     if (type == 'k="name"') {
       hasBarName = true;
       barname = name2;
@@ -89,13 +90,13 @@ void main(List<String> arguments) {
 //  deleteData();
 //     ///Adicionar no banco de dados
 
-    //  final allbar = realm.all<Bar>();
-    //   if(type == 'k="name"'){
-    //    final bar = Bar(ObjectId(),hasBarName==false ? ' ' : barname, hasStreet==false ? ' ' : street, hasHouseNumber==false ? ' ' : housenumber);
-    //   realm.write(() {
-    //     realm.add(bar);
-    //   });}
-    }
+     final allbar = realm.all<Bar>();
+      if(type == 'k="name"'){
+       final bar = Bar(ObjectId(),hasBarName==false ? ' ' : barname, hasStreet==false ? ' ' : street, hasHouseNumber==false ? ' ' : housenumber);
+      realm.write(() {
+        realm.add(bar);
+      });}
+    
     
 //     if (index==0) {
 //       final bar = Bar(ObjectId(), barname, street, housenumber);
@@ -115,4 +116,5 @@ void main(List<String> arguments) {
   
   // }
   // realm.close();
+}
 }
