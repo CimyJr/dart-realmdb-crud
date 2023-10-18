@@ -11,3 +11,6 @@ O banco de dados escolhido foi o RealmDB, ele é um banco de dados baseado no Mo
 
 -Dart:
 A linguagem utilizada foi o Dart, que é uma linguagem muito utilizada na construção de apps mobile por causa do framework Flutter, mas o Flutter fica para outra postagem porque ele não foi utilizado nesse projeto.  
+
+
+<img src="/assets/linkedinbares.jpg">
